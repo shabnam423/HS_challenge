@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+header ul li a{
+    font-size: 16px;
+    padding: 10px 5px;
+    color: #fff;
+}
+
+header button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 2px solid #7ad4cc;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 260px 30px 100px 30px;
+    background-image: url(https://preview.colorlib.com/theme/cryptocurrency/img/hero-bg.png.webp);
+    background-position: center ;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-position-x: -500px;
+}
+.hero_text{
+    width: 40%;
+}
+.hero_img{
+    width: 46%;
+}
+
+.hero_img img{
+    width: 100%;
+}
+
+.hero_text h1{
+    color: #20509e;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.hero_text span{
+    color: #16d0c5;
+}
+
+.hero_text p{
+    color: #75849a;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.hero_text button{
+    background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+    padding: 18px 40px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.about_img{
+    width: 46%;
+}
+.about_text{
+    width: 46%;
+    padding-right: 50px;
+}
+
+.about_img img{
+    width: 100%;
+}
+
+.about_text h2{
+    font-size: 48px;
+    margin-bottom: 25px;
+    color: #20509e;
+}
+
+.about_text h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #20509e;
+    font-weight: 500;
+}
+
+.about_text p{
+    font-size: 18px;
+    color: #75849a;
+    line-height: 1.6;
+}
+
+#features{
+    padding: 100px 30px;
+    background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+    color: white;
+}
+.features_heading h1{
+text-align: center;
+font-size: 40px;
+margin-bottom: 15px;
+}
+
+.features_heading p{
+    text-align: center;
+}
+
+.features{
+display: flex;
+justify-content: space-around;
+margin-top: 40px;
+}
+
+.feature{
+width: 30%;
+display: flex;
+}
+.feature_icon{
+margin-right:15px ;
+font-size: 45px;
+}
+
+.feature_text h4{
+font-weight: 500;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.feature_text p{
+    font-size: 15px;
+    line-height: 25px;
+}
+    </style>
+    </head>
+
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="https://preview.colorlib.com/theme/cryptocurrency/img/logo.png" alt="">
+        </div>
+        <ul>
+            <li><a href="">Solution</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <button>button</button>
+        </ul>
+
+    </header>
+
+    <section id="hero">
+        <div class="hero_text">
+            <h1>Invest in <span>Bitcoin</span> <br>
+                Bitcoin Trading</h1>
+            <p>Use modern progressive technologies of Bitcoin to earn money</p>
+            <button>Contact us</button>
+        </div>
+        <div class="hero_img">
+            <img src="https://preview.colorlib.com/theme/cryptocurrency/img/laptop.png" alt="">
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="about_img">
+            <img src="https://preview.colorlib.com/theme/cryptocurrency/img/about-img.png" alt="">
+        </div>
+        <div class="about_text">
+            <h2>What is Bitcoin</h2>
+            <h3>Bitcoin is an innovative payment network and a new kind of money.</h3>
+            <p>Bitcoin is one of the most important inventions in all of human history. For the first time ever, anyone
+                can send or receive any amount of money with anyone else, anywhere on the planet, conveniently and
+                without restriction. It’s the dawn of a better, more free world.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="features_heading">
+            <h1>Our Features</h1>
+            <p>Bitcoin is the simplest way to exchange money at very low cost.</p>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <div class="feature_icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="feature_text">
+                    <h4>Safe & Secure</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id
+                        est laborum.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature_icon">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+                <div class="feature_text">
+                    <h4>Wallet</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id
+                        est laborum.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature_icon">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                </div>
+                <div class="feature_text">
+                    <h4>Instant Exchange</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id
+                        est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#Bitcoin</a>: The future is now! 💥 Discover the power ⚡ of peer-to-peer digital currency and be a part of the financial revolution. 🚀 <a href="https://t.co/OelWH3PmZj">pic.twitter.com/OelWH3PmZj</a></p>&mdash; Bitcoin (@Bitcoin) <a href="https://twitter.com/Bitcoin/status/1751601982488371301?ref_src=twsrc%5Etfw">January 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>
